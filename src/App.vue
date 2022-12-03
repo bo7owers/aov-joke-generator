@@ -34,6 +34,17 @@ const reset = () => {
 }
 </script>
 <template>
+  <p>
+    made by
+    <a
+      href="http://github.com/bo7owers"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline rounded mx-auto text-lime-700 hover:text-cyan-800 transition-colors"
+      title="opens in a new tab"
+      >bo7owers</a
+    >
+  </p>
   <div class="w-full h-full flex flex-col justify-center items-center">
     <button
       @click="getJoke"
